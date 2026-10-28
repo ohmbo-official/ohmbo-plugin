@@ -1,23 +1,23 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ohmbo",
-  "version": "0.3.0",
-  "description": "Connect your Ohmbo account, plan intelligent hardware, run PCB jobs, and review complete results on the Ohmbo website.",
+  "version": "0.3.1",
+  "description": "Connect your Ohmbo account, plan hardware products, start and follow design work through the Ohmbo MCP, and continue the whole hardware journey on ohmbo.com.",
   "author": { "name": "Ohmbo", "url": "https://ohmbo.com" },
   "homepage": "https://ohmbo.com",
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Ohmbo",
-        "shortDescription": "Start an intelligent hardware project",
-        "longDescription": "Sign in to your Ohmbo account, plan a hardware product, create and revise PCB jobs through the protected Ohmbo MCP, and open complete results on ohmbo.com.",
+        "shortDescription": "Build hardware from idea to measured prototype",
+        "longDescription": "Ohmbo is a one-stop platform for the whole hardware journey: requirements, electronics, firmware, simulation, 3D structure, prototypes and measured test in one project. Sign in with your Ohmbo account, plan a product, start and revise design work through the protected Ohmbo MCP, and continue in the full workspace on ohmbo.com.",
         "developerName": "Ohmbo",
         "category": "Developer Tools",
         "capabilities": ["Interactive"],
         "websiteURL": "https://ohmbo.com",
         "privacyPolicyURL": "https://ohmbo.com/privacy",
         "termsOfServiceURL": "https://ohmbo.com/terms",
-        "defaultPrompt": ["Help me plan a hardware product with Ohmbo", "Create a PCB design and show me where to review it on Ohmbo", "What services does Ohmbo offer?"]
+        "defaultPrompt": ["Help me plan a hardware product with Ohmbo", "Start an Ohmbo design and show me where to review it", "What services does Ohmbo offer?"]
       }
     }
   }

@@ -1,12 +1,12 @@
 {
   "name": "ohmbo",
   "displayName": "Ohmbo",
-  "version": "0.3.0",
-  "description": "Plan intelligent hardware, run Ohmbo PCB jobs, and review results on the Ohmbo website.",
+  "version": "0.3.1",
+  "description": "Bring your Ohmbo hardware project into Claude Code: plan products, prepare briefs, start and follow design work through the Ohmbo MCP, and continue the whole hardware journey on ohmbo.com.",
   "author": { "name": "Ohmbo", "email": "founder@ohmbo.com", "url": "https://ohmbo.com" },
   "homepage": "https://ohmbo.com",
   "repository": "https://github.com/ohmbo-Official/ohmbo-plugin",
   "license": "MIT",
-  "keywords": ["hardware", "pcb", "electronics", "mcp"],
+  "keywords": ["hardware", "hardware-development", "electronics", "pcb", "firmware", "simulation", "enclosure", "mcp"],
   "privacyPolicyUrl": "https://ohmbo.com/privacy"
 }
