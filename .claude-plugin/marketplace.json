@@ -1,0 +1,6 @@
+{
+  "name": "ohmbo",
+  "description": "Official Ohmbo plugins",
+  "owner": { "name": "Ohmbo", "email": "founder@ohmbo.com", "url": "https://ohmbo.com" },
+  "plugins": [{ "name": "ohmbo", "source": "./" }]
+}

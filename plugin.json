@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ohmbo",
+  "version": "0.3.0",
+  "description": "Connect your Ohmbo account, plan intelligent hardware, run PCB jobs, and review complete results on the Ohmbo website.",
+  "author": { "name": "Ohmbo", "url": "https://ohmbo.com" },
+  "homepage": "https://ohmbo.com",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Ohmbo",
+        "shortDescription": "Start an intelligent hardware project",
+        "longDescription": "Sign in to your Ohmbo account, plan a hardware product, create and revise PCB jobs through the protected Ohmbo MCP, and open complete results on ohmbo.com.",
+        "developerName": "Ohmbo",
+        "category": "Developer Tools",
+        "capabilities": ["Interactive"],
+        "websiteURL": "https://ohmbo.com",
+        "privacyPolicyURL": "https://ohmbo.com/privacy",
+        "termsOfServiceURL": "https://ohmbo.com/terms",
+        "defaultPrompt": ["Help me plan a hardware product with Ohmbo", "Create a PCB design and show me where to review it on Ohmbo", "What services does Ohmbo offer?"]
+      }
+    }
+  }
+}

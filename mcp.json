@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "ohmbo": {
+      "type": "streamable-http",
+      "url": "https://mcp.ohmbo.com/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            },
+            "baseScopes": [
+              "ohmbo:design",
+              "offline_access"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

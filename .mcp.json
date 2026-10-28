@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ohmbo": {
+      "type": "http",
+      "url": "https://mcp.ohmbo.com/mcp"
+    }
+  }
+}
